@@ -1,0 +1,48 @@
+/*Mixin Examples*/
+/*@include center()*/
+.container-fluid,
+.row,
+.col {
+  text-align: center; }
+
+.currentTime {
+  font-family: 'Fredericka the Great', cursive;
+  letter-spacing: .09em;
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin-top: 80px; }
+
+.button {
+  font-size: 11px;
+  letter-spacing: .2em;
+  color: white;
+  margin: 0px auto;
+  background-color: #E43D96;
+  padding: 8px;
+  padding-left: 18px;
+  padding-right: 18px; }
+
+a {
+  color: white; }
+
+a:hover {
+  color: #ed80ba;
+  text-decoration: none; }
+
+.footer {
+  font-family: helvetica, serif;
+  font-size: 12px;
+  margin-top: 64px;
+  color: grey;
+  text-align: center;
+  color: white;
+  margin-bottom: 100%;
+  margin-top: 300px; }
+
+@media (max-width: 600px) {
+  .currentTime {
+    font-size: 44px; }
+  .footer {
+    font-size: 9px; } }

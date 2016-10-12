@@ -2,7 +2,7 @@ function renderTime() {
 
 	var currentTime = new Date ();
 	var amPM = "AM";
-	var hour = currentTime.getHours ();
+	var hour = currentTime.getHours();
 	var minutes = currentTime.getMinutes();
 	var seconds = currentTime.getSeconds();
 
