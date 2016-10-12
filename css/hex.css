@@ -3,8 +3,7 @@
 .container-fluid,
 .row,
 .col {
-  background-color: black;
-  text-align: center; }
+  background-color: grey; }
 
 .currentTime {
   font-family: 'Fredericka the Great', cursive;
@@ -20,17 +19,14 @@
   letter-spacing: .2em;
   color: white;
   margin: 0px auto;
+  display: block;
   background-color: #E43D96;
   padding: 8px;
   padding-left: 18px;
   padding-right: 18px; }
 
-a {
+.button a {
   color: white; }
-
-a:hover {
-  color: #ed80ba;
-  text-decoration: none; }
 
 .footer {
   font-family: helvetica, serif;

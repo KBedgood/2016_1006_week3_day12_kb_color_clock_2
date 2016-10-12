@@ -4,6 +4,7 @@
 .row,
 .col {
             background-color: black;
+            text-align: center;
 }
 
 .currentTime {
@@ -22,16 +23,22 @@
             letter-spacing: .2em;
             color: white;
             margin: 0px auto;
-            display: block;
+            // display: block;
             background-color: #E43D96;
             padding: 8px;
             padding-left: 18px;
             padding-right: 18px;
 }
 
-.button a {
+a {
             color: white;
       }
+
+a:hover {
+            color: lighten(#E43D96, 15);
+            text-decoration: none;
+      }
+
 
 .footer {
             @include footer();
