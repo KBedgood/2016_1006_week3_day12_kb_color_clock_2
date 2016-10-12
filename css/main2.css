@@ -1,0 +1,17 @@
+/*Mixin Examples*/
+/*@include center()*/
+.currentTime {
+  font-family: 'Fredericka the Great', cursive;
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  margin-top: 80px; }
+
+.footer {
+  font-family: helvetica, serif;
+  font-size: 12px;
+  margin-top: 64px;
+  color: grey;
+  text-align: center;
+  color: white; }
